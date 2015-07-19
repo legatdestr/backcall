@@ -1,2 +1,6 @@
 # backcall
-back call module
+
+Callback widget for site. Written in javascript, without jQuery.
+
+#License
+Mit
