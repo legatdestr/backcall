@@ -1,0 +1,68 @@
+.backcall label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+/* Centre the page */
+.backcall {
+    display: block;
+    margin: 0 auto;
+    width: 576px;
+}
+
+/* Centre the form within the page */
+.backcall form {
+    margin: 0 auto;
+    width: 459px;
+}
+
+/* Style the text boxes */
+.backcall input, .backcall textarea {
+    width: 439px;
+    background: #eee;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #3a3a3a;
+}
+
+.backcall textarea {
+    height: 213px;
+}
+
+.backcall input, .backcall textarea, .backcall .select select, .backcall .g-recaptcha {
+    width: 439px;
+    background: #eee;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.backcall input:focus, .backcall textarea:focus {
+    border: 1px solid #357ebd;
+}
+
+.backcall .select select {
+    width: 439px;
+    line-height: 1;
+    -webkit-appearance: none;
+}
+
+
+.backcall .select {
+    width: 439px;
+    background: url("../img/arrow_point_to_down_24.png") no-repeat right #ddd;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.backcall .error {
+    color: #ff0000;
+}
