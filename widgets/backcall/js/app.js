@@ -608,7 +608,7 @@ if (!String.prototype.trim) {
 
                 loadDependencies = function (callback) {
                     var dependencies = [
-                        appHomePath + '/css/' + 'backcall.css'
+                        appHomePath + '/css/' + 'backcall.css' + '?t=' + new Date().getTime()
                     ];
 
                     if (!exports.isObject(typeof window.nanoajax)) {

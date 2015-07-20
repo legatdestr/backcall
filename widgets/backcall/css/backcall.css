@@ -8,21 +8,21 @@
 .backcall {
     display: block;
     margin: 0 auto;
-    width: 576px;
+    width: 376px;
 }
 
 /* Centre the form within the page */
 .backcall form {
     margin: 0 auto;
-    width: 459px;
+    width: 299px;
 }
 
 /* Style the text boxes */
 .backcall input, .backcall textarea {
-    width: 439px;
+    width: 299px;
     background: #eee;
     border: 1px solid #dedede;
-    padding: 10px;
+    padding: 5px;
     margin-top: 3px;
     font-size: 0.9em;
     color: #3a3a3a;
@@ -33,10 +33,10 @@
 }
 
 .backcall input, .backcall textarea, .backcall .select select, .backcall .g-recaptcha {
-    width: 439px;
+    width: 299px;
     background: #eee;
     border: 1px solid #dedede;
-    padding: 10px;
+    padding: 5px;
     margin-top: 3px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -48,14 +48,14 @@
 }
 
 .backcall .select select {
-    width: 439px;
+    width: 299px;
     line-height: 1;
     -webkit-appearance: none;
 }
 
 
 .backcall .select {
-    width: 439px;
+    width: 299px;
     background: url("../img/arrow_point_to_down_24.png") no-repeat right #ddd;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
